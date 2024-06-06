@@ -1,5 +1,10 @@
 return {
   {
+    "Bilal2453/luvit-meta",
+    opts = {},
+    enabled = false,
+  },
+  {
     "telescope.nvim",
     dependencies = {
       {
