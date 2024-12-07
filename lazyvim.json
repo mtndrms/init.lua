@@ -1,9 +1,10 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.editor.harpoon2"
+    "lazyvim.plugins.extras.editor.harpoon2",
+    "lazyvim.plugins.extras.util.mini-hipatterns"
   ],
   "news": {
-    "NEWS.md": "5204"
+    "NEWS.md": "7429"
   },
-  "version": 6
+  "version": 7
 }

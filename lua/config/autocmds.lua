@@ -8,11 +8,11 @@ vim.api.nvim_create_autocmd("InsertLeave", {
   command = "set nopaste",
 })
 
--- Disable the concealing in some file formats
--- The default conceallevel is 3 in LazyVim
+-- Fix conceallevel for json files
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "json", "jsonc", "markdown" },
+  pattern = { "json", "jsonc" },
   callback = function()
-    vim.opt.conceallevel = 0
+    vim.wo.spell = false
+    vim.wo.conceallevel = 0
   end,
 })
